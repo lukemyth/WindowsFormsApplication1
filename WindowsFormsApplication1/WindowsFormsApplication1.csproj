@@ -132,6 +132,12 @@
     <Compile Include="Form4.Designer.cs">
       <DependentUpon>Form4.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -145,6 +151,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form4.resx">
       <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -188,6 +197,90 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b42.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b43.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b51.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b52.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b53.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b61.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b62.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b63.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b33.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\图片1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\%28无水印%29图拉练片4.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

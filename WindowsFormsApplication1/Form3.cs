@@ -12,6 +12,7 @@ namespace WindowsFormsApplication1
 {
     public partial class Form3 : Form
     {
+        string ipAdress=".";
         public Form3()
         {
             InitializeComponent();
@@ -27,7 +28,7 @@ namespace WindowsFormsApplication1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SqlConnection conn = new SqlConnection("server=.;database=ErYingDatabase; uid=sa; pwd=9876543q");
+            SqlConnection conn = new SqlConnection("server=" + ipAdress + ";database=ErYingDatabase; uid=sa; pwd=9876543q");
             if (conn.State != ConnectionState.Open)
             {
                 conn.Open();
@@ -61,7 +62,7 @@ namespace WindowsFormsApplication1
                 sqlcmd1.CommandText = "insert into ClientTable values('" + name + "','" + textBox2.Text.Trim ()+"','0','0','0')";
                 sqlcmd1.CommandType = CommandType.Text;
                 sqlcmd1.ExecuteNonQuery();
-                MessageBox.Show("注册成功！", "注册提示", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("注册成功！", "注册提示", MessageBoxButtons.OK, MessageBoxIcon.Information );
                     this.Hide();
                     Form1 Frm1 = new Form1();
                     Frm1.Show();
@@ -81,6 +82,46 @@ namespace WindowsFormsApplication1
         private void Form3_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_MouseDown(object sender, MouseEventArgs e)
+        {
+            button1.BackgroundImage = Properties.Resources.b23;
+        }
+
+        private void button1_MouseLeave(object sender, EventArgs e)
+        {
+            button1.BackgroundImage = Properties.Resources.b21;
+        }
+
+        private void button1_MouseMove(object sender, MouseEventArgs e)
+        {
+            button1.BackgroundImage = Properties.Resources.b22;
+        }
+
+        private void button1_MouseUp(object sender, MouseEventArgs e)
+        {
+            button1.BackgroundImage = Properties.Resources.b22;
+        }
+
+        private void button2_MouseDown(object sender, MouseEventArgs e)
+        {
+            button2.BackgroundImage = Properties.Resources.b03;
+        }
+
+        private void button2_MouseLeave(object sender, EventArgs e)
+        {
+            button2.BackgroundImage = Properties.Resources.b01;
+        }
+
+        private void button2_MouseMove(object sender, MouseEventArgs e)
+        {
+            button2.BackgroundImage = Properties.Resources.b22;
+        }
+
+        private void button2_MouseUp(object sender, MouseEventArgs e)
+        {
+            button2.BackgroundImage = Properties.Resources.b22;
         }
     }
 }
