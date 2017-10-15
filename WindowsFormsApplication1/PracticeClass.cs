@@ -7,5 +7,6 @@ namespace WindowsFormsApplication1
 {
     class PracticeClass
     {
+        public string Name { get; set; }
     }
 }
