@@ -122,7 +122,7 @@ namespace WindowsFormsApplication1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            string str = "select *from ";
         }
 
         private void label20_Click(object sender, EventArgs e)

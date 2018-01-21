@@ -138,6 +138,12 @@
     <Compile Include="Form5.Designer.cs">
       <DependentUpon>Form5.cs</DependentUpon>
     </Compile>
+    <Compile Include="InitialPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InitialPage.Designer.cs">
+      <DependentUpon>InitialPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="PracticeClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -155,6 +161,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form5.resx">
       <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InitialPage.resx">
+      <DependentUpon>InitialPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
